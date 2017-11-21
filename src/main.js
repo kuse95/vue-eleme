@@ -4,10 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'lib-flexible'
-import { Tabbar, TabItem } from 'mint-ui'
+import { Tabbar, TabItem, Header } from 'mint-ui'
 
 Vue.component(Tabbar.name, Tabbar)
 Vue.component(TabItem.name, TabItem)
+Vue.component(Header.name, Header)
 
 Vue.config.productionTip = false
 
